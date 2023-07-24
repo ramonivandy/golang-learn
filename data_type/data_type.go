@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Welcome to Numeric in Go!")
+	fmt.Println("Welcome to Data Type in Go!")
 	/* table of go numbers */
 	/*
 		uint8	0 ↔ 255
@@ -36,4 +36,34 @@ func main() {
 	boolValue2 := true
 	// %t for boolean values
 	fmt.Printf("IsFalse: %t, isTrue: %t \n", boolValue, boolValue2)
+
+	//string type
+	var string = "hello world"
+	fmt.Println(string)
+
+	//string with backtick
+	var string_with_backtick = `
+		Hello
+		From 
+		Backtick 
+		Variable
+	`
+	fmt.Println(string_with_backtick)
+
+	// nil value
+	/*
+		nil != zero value;
+		string zero value = ""
+		integer zero value = 0
+		decimal zero value = 0.0
+		boolean zero value = false
+
+		nil can be used to this type data :
+		- pointer
+		- function data type
+		- slice
+		- map
+		- channel
+		- empty interface ( interface{} )
+	*/
 }

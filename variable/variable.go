@@ -27,7 +27,8 @@ func main() {
 
 	//pointer variable
 	pointerVar := new(string)
+
 	// fmt.Printf(pointerVar) // if we do this, go will print memory address not the value of variable
-	fmt.Printf(*pointerVar) // add asterisk * to show variable value from pointer
+	fmt.Println(*pointerVar) // add asterisk * to show variable value from pointer
 
 }
